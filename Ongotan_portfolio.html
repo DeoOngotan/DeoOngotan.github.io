@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="w3-container">
+        <header>
+            <h1>My Portfolio</h1>
+        </header>
+        <img src="deo.jpg" alt="My Photo">
+        <h2>About Me</h2>
+        <p>Hello I'm Deo Ongotan! Welcome to my portfolio! Here you can learn more about me, my skills, and the projects I've worked on.</p>
+        <h2>Projects</h2>
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>Personal Website</td>
+                <td>A simple personal website built with HTML and CSS.</td>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <td>Portfolio</td>
+                <td>A portfolio to showcase my projects and skills.</td>
+                <td>2024</td>
+            </tr>
+        </table>
+
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>Php</li>
+            <li>C Language</li>
+            <li>SQL</li>
+        </ul>
+        <h2>Favorite Websites</h2>
+        <ol>
+            <li>Facebook</li>
+            <li>Messenger</li>
+            <li>TikTok</li>
+            <li>Instagram</li>
+            <li>W3School</li>
+        </ol>
+
+        <h2>Favorite Food?</h2>
+        <form action="/action_page.php">
+            <input type="radio" id="adobo" name="fav_language" value="Adobo">
+            <label for="adobo">Adobo</label><br>
+
+            <input type="radio" id="tinola" name="fav_language" value="Tinola">
+            <label for="tinola">Tinola</label><br>
+
+            <input type="radio" id="pinakbet" name="fav_language" value="Pinakbet">
+            <label for="pinakbet">Pinakbet</label><br><br>
+        </form> 
+
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <div>
+                <input name="age" list="age" placeholder="Age">
+                <datalist id="age">
+                    <option value="12-18">
+                    <option value="19-30">
+                    <option value="31-60">
+                    </datalist>
+                </div><br><br>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="2" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <footer>
+            <p>Add me on Facebook for more info <a href="https://www.facebook.com/profile.php?id=100012545732511&mibextid=ZbWKwL">FB ACCOUNT</a></p>
+        </footer>
+    </div>
+</body>
+</html>
